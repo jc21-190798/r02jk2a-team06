@@ -9,6 +9,7 @@ public class Kadai02 {
 	 * @return sの中に入っていたcの文字数
 	 */
 	int countString(String s,char c) {
-		return -1;
+		return (int)s.chars().filter(x->x==c).count();
+
 	}
 }
