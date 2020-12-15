@@ -12,4 +12,5 @@ public class Kadai02 {
 		return (int)s.chars().filter(x->x==c).count();
 
 	}
+
 }
